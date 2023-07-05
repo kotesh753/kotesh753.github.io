@@ -31,7 +31,7 @@ body {
   overflow: auto;
   position: relative;
   overflow-x: hidden;
-  /* background: aqua; */
+   background: #acdaff;
 }
 .main-header {
   position: fixed;
@@ -201,6 +201,15 @@ body {
   background-color: #373737 !important;
 }
 
+.bg-yellow {
+  background-color: #b3ac6f !important;
+}
+
+.img-circle {
+  border: 2px solid;
+  border-radius: 50%;
+}
+
 .bg-1 {
   background-color: #9bd3d0;
 }
@@ -234,7 +243,7 @@ body {
 body {
   font-family: "Jost", sans-serif;
   font-weight: 400;
-  color: #555555;
+  color: #714c4c;
 }
 
 img {
@@ -405,7 +414,7 @@ main {
 /* Section
 ---------------------*/
 .section {
-  padding: 10px 0;
+  padding: 40px;
   position: relative;
 }
 @media (max-width: 991px) {
